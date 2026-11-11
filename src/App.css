@@ -2968,3 +2968,75 @@ html, body, #root {
         gap: 25px;
     }
 }
+@media (max-width: 768px) {
+
+    .hero {
+        padding: 30px 20px;
+        text-align: center;
+    }
+
+    .hero .row {
+        flex-direction: column;
+    }
+
+    .bgname {
+        font-size: 100px;
+    }
+
+    .col-lg-8 h1 {
+        font-size: 35px;
+    }
+
+    .col-lg-8 h4 {
+        font-size: 23px;
+    }
+
+    .col-lg-8 p:not(.bgname) {
+        font-size: 25px;
+    }
+
+    .image {
+        height: 300px;
+    }
+
+    .techshop .product-grid,
+    .all-products-grid {
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    .category-menu {
+        flex-wrap: wrap;
+        gap: 10px !important;
+    }
+
+    .cart-layout {
+        grid-template-columns: 1fr;
+    }
+
+    .detail-main {
+        grid-template-columns: 1fr;
+    }
+
+    .main-product-image {
+        height: 350px;
+    }
+
+    .filter-sidebar {
+        width: 140px;
+        min-width: 140px;
+    }
+
+    .footer-top {
+        flex-wrap: wrap;
+    }
+
+    .footer-menus {
+        flex-wrap: wrap;
+        gap: 25px;
+    }
+
+    .services-container {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+}

@@ -2927,3 +2927,44 @@ html, body, #root {
     background: #111;
     color: white;
 }
+@media (max-width: 1024px) {
+
+    .hero {
+        padding: 40px;
+    }
+
+    .bgname {
+        font-size: 150px;
+    }
+
+    .image {
+        max-width: 350px;
+        height: 350px;
+    }
+
+    .techshop .product-grid,
+    .all-products-grid {
+        grid-template-columns: repeat(3, 1fr);
+    }
+
+    .techshop .product-details h5 {
+        font-size: 25px;
+    }
+
+    .techshop .product-details p {
+        font-size: 16px;
+    }
+
+    .cart-layout {
+        gap: 20px;
+    }
+
+    .detail-main {
+        gap: 20px;
+    }
+
+    .services-container {
+        flex-wrap: wrap;
+        gap: 25px;
+    }
+}

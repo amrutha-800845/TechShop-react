@@ -3210,3 +3210,37 @@ html, body, #root {
         padding: 20px;
     }
 }
+/* BIG SCREEN */
+@media (min-width: 1200px) {
+
+    .product-detail-page {
+        padding: 110px 50px 60px;
+    }
+
+    .detail-main {
+        max-width: 1400px;
+        grid-template-columns: 1fr 1fr;
+        gap: 50px;
+    }
+
+    .main-product-image {
+        height: 500px;
+    }
+
+    .detail-information h2 {
+        font-size: 30px;
+    }
+
+    .related-products {
+        max-width: 1400px;
+    }
+
+    .related-grid {
+        grid-template-columns: repeat(4, 1fr);
+        gap: 25px;
+    }
+
+    .related-card img {
+        height: 190px;
+    }
+}
